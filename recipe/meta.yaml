@@ -1,5 +1,5 @@
 {% set name = "rrparser" %}
-{% set version = "2.4.5" %}
+{% set version = "2.4.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 8692de0cba5536548001ab9cea51e2311b7e15fa4e351a12965cdc0ea10b34b9
+  sha256: c1b76e05ab6c5d55c2c9a6bd7a9c6497c489bb732fc011a8e4dbe1c4c2843d91
 
 build:
   number: 0
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/brsynth/{{ name|lower }}
-  summary: "Reaction Rules Parser: retrieves the reaction rules from RetroRules"
+  summary: 'Reaction Rules Parser: retrieves the reaction rules from RetroRules'
   license: MIT
   license_file: LICENSE
 
