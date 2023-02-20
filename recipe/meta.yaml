@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pandas
+    - pandas >=1.5.3
     - brs_utils
     - colorlog
 
