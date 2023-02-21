@@ -1,5 +1,5 @@
 {% set name = "rrparser" %}
-{% set version = "2.5.0" %}
+{% set version = "2.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: a14d56283911b3fe6984f248209e6208563e656bc401abff8095f320e72083fe
+  sha256: bc3201cbcf2d92d304afa6dae952f7950b25807d20ce40eebf22c6bb278d78fa
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - pandas
+    - pandas >=1.5.3
     - brs_utils
     - colorlog
 
@@ -34,7 +34,6 @@ test:
     - pytest
   commands:
     - python -m {{ name|lower }} --help
-    - cd tests
     - python -m pytest -v
 
 about:

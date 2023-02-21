@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@breakthewall](https://github.com/breakthewall/)
+* [@tduigou](https://github.com/tduigou/)
 
