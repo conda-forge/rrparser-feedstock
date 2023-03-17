@@ -1,11 +1,11 @@
-About rrparser
-==============
+About rrparser-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rrparser-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brsynth/rrparser
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rrparser-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reaction Rules Parser: retrieves the reaction rules from RetroRules
 
