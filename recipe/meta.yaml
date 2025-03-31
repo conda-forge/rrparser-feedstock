@@ -1,5 +1,5 @@
 {% set name = "rrparser" %}
-{% set version = "2.6.0" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 8fb4ee26fedc78a9e1d9946ad3b9bedc52bcc793e3d62ddab4a79061ff13ae0a
+  sha256: 3df7e7fb59362ca0ef5cb2408a4bd88a2368bb558ccfd989a8b0aa2f025af193
 
 build:
   number: 0
